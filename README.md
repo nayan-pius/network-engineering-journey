@@ -11,8 +11,9 @@ professional, internationally competitive Network Engineer.
 
 ## 📍 Current Status
 - Level: Beginner-IT [1/10]
-- Active Phase: Week 1 — Networking Fundamentals
-- Current Focus: OSI Model, TCP/IP, Binary Math, Packet Tracer basics
+- Active Phase: Week 1 — Networking Fundamentals (Day 1 completed)
+- Current Focus: OSI Model introduction, Wireshark basics and packet capture
+- Progress Log: See [PROGRESS-LOG.md](PROGRESS-LOG.md) for detailed daily updates
 
 ## 🗂️ Repository Structure
 - `week-1/` — OSI, TCP/IP, first Packet Tracer labs, Wireshark captures
@@ -24,4 +25,4 @@ professional, internationally competitive Network Engineer.
 - [ ] Cisco CCNP Enterprise
 - [ ] Cloud/Automation Specialization
 
-## 📅 Started: February 2026
+## 📅 Started: February 23, 2026
