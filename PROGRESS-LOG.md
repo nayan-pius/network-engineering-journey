@@ -40,21 +40,19 @@
 
 ---
 
-### Day 2 — [Date]
-**Topics Covered:**
--
+### Day 2 — February 25, 2026
+**Topics Covered:** TCP/IP Model, Binary Math, ARP, TCP vs UDP
 
-**What I Learned:**
--
+**What I Learned:** Completed Day 2. Topics covered: TCP/IP model, binary math, ARP, TCP vs UDP. Correction noted: Initially mixed up TCP/IP layers with OSI layers, now corrected.
 
-**Mistakes I Made & Corrections:**
--
+**Corrections Made:** Mixed up OSI and TCP/IP layers initially. TCP/IP has 4 layers not 5. UDP is for video calls, TCP is for web browsing — had them backwards initially, now corrected.
 
-**Lab Completed:**
+**Labs Completed:** No labs today — theory day
 
-**Score:**
+**Hours Studied:** 2.5
 
----
+
+
 ```
 
 ---
