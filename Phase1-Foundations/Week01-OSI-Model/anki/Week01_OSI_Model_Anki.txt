@@ -1,0 +1,30 @@
+What does OSI stand for?	Open Systems Interconnection
+How many layers does the OSI model have?	7 layers
+What is the job of the Application Layer (Layer 7)?	Provides network services to user-facing applications like browsers and email clients
+Name 3 protocols that live at Layer 7.	HTTP, HTTPS, FTP, DNS, SMTP
+What is the job of the Presentation Layer (Layer 6)?	Translates, encrypts, and compresses data before transmission
+Which OSI layer handles SSL/TLS encryption?	Layer 6 — Presentation Layer
+What are the 3 main jobs of the Presentation Layer?	Encryption, Translation, Compression
+What is the job of the Session Layer (Layer 5)?	Establishes, maintains, and terminates sessions between two communicating devices
+Which layer allows an interrupted file download to resume from where it stopped?	Layer 5 — Session Layer (synchronisation/checkpoints)
+What is the job of the Transport Layer (Layer 4)?	Breaks data into segments and manages end-to-end delivery using TCP or UDP
+What is the difference between TCP and UDP?	TCP is reliable and connection-oriented — guarantees delivery. UDP is fast and connectionless — no guarantee.
+Give a real-life example of TCP.	File downloads, web browsing, email — accuracy matters
+Give a real-life example of UDP.	Video calls, live streaming, online gaming — speed matters more than accuracy
+What is the unit of data at Layer 4?	Segments
+What is the job of the Network Layer (Layer 3)?	Handles logical IP addressing and routing between different networks
+What device operates at Layer 3?	Router
+What is the unit of data at Layer 3?	Packets
+What is the job of the Data Link Layer (Layer 2)?	Handles MAC addressing and node-to-node delivery on the same local network
+What device operates at Layer 2?	Switch
+What is the unit of data at Layer 2?	Frames
+What is the difference between a MAC address and an IP address?	IP address is a logical Layer 3 address used for routing. MAC address is a physical Layer 2 address burned into the network card.
+What is the job of the Physical Layer (Layer 1)?	Transmits raw bits (0s and 1s) over physical media — cables, fibre optic, or wireless signals
+What device operates at Layer 1?	Hub
+What is the problem with a Hub?	It broadcasts data to ALL devices on the network causing collisions and wasted bandwidth — that is why it is obsolete
+What is the unit of data at Layer 1?	Bits
+What is the OSI memory trick from top to bottom?	All People Seem To Need Data Processing — Application, Presentation, Session, Transport, Network, Data Link, Physical
+What is the OSI memory trick from bottom to top?	Please Do Not Throw Sausage Pizza Away — Physical, Data Link, Network, Transport, Session, Presentation, Application
+Which layer does a Router operate at?	Layer 3 — Network Layer
+Which layer does a Switch operate at?	Layer 2 — Data Link Layer
+Which layer does a Hub operate at?	Layer 1 — Physical Layer

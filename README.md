@@ -91,7 +91,7 @@ network-engineering-journey/
 
 | Week | Topic | Status |
 |------|-------|--------|
-| Week 1 | OSI Model | 🔜 14 Mar 2026 |
+| Week 1 | OSI Model | ✅ Complete |
 | Week 2 | TCP/IP + Protocols + Wireshark | ⬜ |
 | Week 3 | IPv4 Addressing + Binary | ⬜ |
 | Week 4 | Subnet Masks + CIDR | ⬜ |
