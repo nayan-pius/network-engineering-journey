@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file -->
 # 🌐 Network Engineering Journey — Pius | UPSA Ghana
 
 > *"The expert in anything was once a beginner who refused to quit."*
@@ -92,7 +93,7 @@ network-engineering-journey/
 | Week | Topic | Status |
 |------|-------|--------|
 | Week 1 | OSI Model | ✅ Complete |
-| Week 2 | TCP/IP + Protocols + Wireshark | ⬜ |
+| Week 2 | TCP/IP + Protocols + Wireshark | ✅ Complete |
 | Week 3 | IPv4 Addressing + Binary | ⬜ |
 | Week 4 | Subnet Masks + CIDR | ⬜ |
 | Week 5 | Subnetting Step by Step | ⬜ |

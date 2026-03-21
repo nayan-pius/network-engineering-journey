@@ -1,0 +1,41 @@
+<!-- markdownlint-disable-file -->
+How many layers does the TCP/IP model have?	4 layers
+What are the 4 layers of the TCP/IP model?	Application, Transport, Internet, Network Access
+Which TCP/IP layer covers OSI Layers 5, 6 and 7?	Application Layer
+Which TCP/IP layer maps to OSI Layer 4?	Transport Layer
+Which TCP/IP layer maps to OSI Layer 3?	Internet Layer
+Which TCP/IP layer covers OSI Layers 1 and 2?	Network Access Layer
+What is the difference between the OSI model and TCP/IP model?	OSI has 7 layers and is a theoretical reference model. TCP/IP has 4 layers and is the real-world model the internet runs on.
+What does DNS stand for and what is its job?	Domain Name System — translates domain names into IP addresses
+What port does DNS use?	Port 53
+What does DHCP stand for and what is its job?	Dynamic Host Configuration Protocol — automatically assigns IP addresses and network configuration to devices
+What ports does DHCP use?	Port 67 (server) and Port 68 (client)
+Name 4 things DHCP assigns to a device automatically.	IP address, Subnet mask, Default gateway, DNS server address
+What does HTTP stand for and what is its job?	Hypertext Transfer Protocol — transfers web pages from a server to a browser without encryption
+What port does HTTP use?	Port 80
+What does HTTPS stand for and what makes it different from HTTP?	Hypertext Transfer Protocol Secure — same as HTTP but encrypts data using TLS/SSL
+What port does HTTPS use?	Port 443
+What does FTP stand for and what is its job?	File Transfer Protocol — transfers files between a client and a server
+What two ports does FTP use and what does each do?	Port 21 — control connection (commands). Port 20 — data connection (file transfer)
+What is the security problem with FTP and what fixes it?	FTP sends data in plain text including passwords. SFTP (port 22) fixes this with encryption.
+What does SMTP stand for and what is its job?	Simple Mail Transfer Protocol — sends emails from a client to a mail server
+What port does SMTP use?	Port 25
+What protocol receives email and removes it from the server?	POP3 — Port 110
+What protocol reads email from the server without removing it?	IMAP — Port 143
+What are the 3 steps of the TCP handshake in order?	SYN → SYN-ACK → ACK
+What does SYN mean in the TCP handshake?	The client says "I want to connect" — initiates the connection
+What does SYN-ACK mean in the TCP handshake?	The server replies "I accept your request, are you ready?"
+What does ACK mean in the TCP handshake?	The client confirms "Yes I am ready" — connection is established
+What happens if a TCP segment is lost during transmission?	TCP automatically retransmits the lost segment
+What is the main difference between TCP and UDP?	TCP is reliable and connection-oriented. UDP is fast and connectionless with no guarantee of delivery.
+What does ICMP stand for and what is its job?	Internet Control Message Protocol — used for network diagnostics and error reporting
+What command uses ICMP?	The ping command
+What OSI layer does ICMP operate at?	Layer 3 — Network Layer
+What does ARP stand for and what is its job?	Address Resolution Protocol — resolves an IP address into a MAC address on the same local network
+What OSI layer does ARP operate at?	Layer 2 — Data Link Layer
+What command shows your ARP table?	arp -a
+Describe the ARP process step by step.	1. Device checks ARP table — MAC not found. 2. Broadcasts ARP Request: "Who has this IP?". 3. Target replies with its MAC address. 4. Device stores MAC in ARP table and communicates.
+What is Wireshark used for?	Capturing and analysing real network packets on a device
+What filter shows only DNS traffic in Wireshark?	dns
+What filter shows only TCP traffic in Wireshark?	tcp
+What does a TCP SYN packet in Wireshark indicate?	The start of a TCP 3-way handshake — a device is initiating a connection

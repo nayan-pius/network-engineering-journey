@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file -->
 # Week 1 — The OSI Model
 
 **Phase:** 1 — Foundations  
@@ -8,8 +9,8 @@
 
 ## What is the OSI Model?
 
-The OSI (Open Systems Interconnection) model is a framework that 
-describes how data travels from one device to another across a network. 
+The OSI (Open Systems Interconnection) model is a framework that
+describes how data travels from one device to another across a network.
 It has 7 layers, each with a specific job.
 
 ---
@@ -31,31 +32,31 @@ It has 7 layers, each with a specific job.
 ## Layer Summaries
 
 **Layer 7 — Application**  
-The interface between the user and the network. Where user-facing 
+The interface between the user and the network. Where user-facing
 applications like browsers and email clients operate.
 
 **Layer 6 — Presentation**  
-Translates, encrypts, and compresses data. SSL/TLS encryption happens 
+Translates, encrypts, and compresses data. SSL/TLS encryption happens
 here. Handles formats like JPEG and MP3.
 
 **Layer 5 — Session**  
-Establishes, maintains, and terminates sessions between devices. 
+Establishes, maintains, and terminates sessions between devices.
 Handles synchronisation — allows interrupted transfers to resume.
 
 **Layer 4 — Transport**  
-Breaks data into segments. TCP guarantees delivery (accuracy). 
+Breaks data into segments. TCP guarantees delivery (accuracy).
 UDP prioritises speed over accuracy. Uses port numbers.
 
 **Layer 3 — Network**  
-Handles IP addressing and routing. Routers operate here. 
+Handles IP addressing and routing. Routers operate here.
 Data unit is called a Packet.
 
 **Layer 2 — Data Link**  
-Handles MAC addressing. Switches operate here. 
+Handles MAC addressing. Switches operate here.
 Data unit is called a Frame.
 
 **Layer 1 — Physical**  
-Transmits raw bits (0s and 1s) over cables or wireless signals. 
+Transmits raw bits (0s and 1s) over cables or wireless signals.
 Hubs operate here — they broadcast to all devices (obsolete).
 
 ---
